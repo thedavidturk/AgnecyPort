@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>CRE8 - Documentation</title>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/prettify.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<div id="header" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="doc-title"><div class="glyph-icon flaticon-document-1"></div>CRE8 - Documentation</div>
+        </div>
+    </div>
+</div>
+<div id="content" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-3" style="padding:0;">
+            <div class="menu-holder">
+                <ul class="main-menu">
+                    <li><a href="#html"><i class="fa fa-angle-right" aria-hidden="true"></i>HTML Structure</a></li>
+                    <li><a href="#css"><i class="fa fa-angle-right" aria-hidden="true"></i>CSS & JavaScript</a></li>
+                    <li><a href="#logo"><i class="fa fa-angle-right" aria-hidden="true"></i>Logo</a></li>
+                    <li><a href="#themes"><i class="fa fa-angle-right" aria-hidden="true"></i>Other themes</a></li>
+                    <li><a href="#lgtext"><i class="fa fa-angle-right" aria-hidden="true"></i>Large text</a></li>
+                    <li><a href="#projects"><i class="fa fa-angle-right" aria-hidden="true"></i>Project list</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-9 content">
+            <h3 id="intro">Introduction</h3>
+            <p>This documentation is to help you regarding each step of customization. Please go through the documentation carefully to understand how this template is made and how to edit this properly. Basic HTML and CSS knowledge is required to customize this template. You may learn basics <a href="http://www.w3schools.com/" target="_blank">here</a>, <a href="https://developer.mozilla.org/" target="_blank">here</a> and <a href="http://learn.shayhowe.com/html-css/building-your-first-web-page/" target="_blank">here</a>. </p>
+
+            <h3>Requirements</h3>
+            <p>You will need the following sofwares to customize this template.</p>
+            <ol>
+                <li>Code Editing Software (eg: Dreamweaver, Sublime Text or Notepad)</li>
+                <li>Web Browser for testing (eg: Google Chrome or Mozilla Firefox)</li>
+                <li>FTP Tool to upload files to Server (eg: <a href="https://filezilla-project.org/download.php?type=client" target="_blank">FileZilla</a>) </li>
+            </ol>
+            <div class="alert alert-note clearfix">
+                <p><i class="fa fa-exclamation-triangle"></i> Be careful while editing the template. If not edited properly, the design layout may break completely.
+                    <br> No support is provided for faulty customization.
+                </p>
+            </div>
+
+            <h3 id="html">HTML Structure</h3>
+            <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            
+            <p>The template is based on bootstrap 4 library, please read more about bootstrap here: <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/" target="_blank">https://getbootstrap.com/docs/4.1/getting-started/introduction/</a></p>
+
+            <h3>Bootstrap Grid System</h3>
+
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;container-fluid&#x22;&#x3E;
+    &#x3C;div class=&#x22;row&#x22;&#x3E;
+        &#x3C;div class=&#x22;col-lg-12 col-md-12 col-sm-12 col-xs-12&#x22;&#x3E;
+            YOUR CODES GOES HERE
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+
+            <p>Our you can use the grid system with 2 columns like this;</p>
+
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;container-fluid&#x22;&#x3E;
+    &#x3C;div class=&#x22;row&#x22;&#x3E;
+        &#x3C;div class=&#x22;col-lg-6 col-md-6 col-sm-6 col-xs-12&#x22;&#x3E;
+            YOUR CODES GOES HERE
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;col-lg-6 col-md-6 col-sm-6 col-xs-12&#x22;&#x3E;
+            YOUR CODES GOES HERE
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+
+            <p>Our you can use the grid system with 3 columns like this;</p>
+
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;container-fluid&#x22;&#x3E;
+    &#x3C;div class=&#x22;row&#x22;&#x3E;
+        &#x3C;div class=&#x22;col-lg-4 col-md-6 col-sm-6 col-xs-12&#x22;&#x3E;
+            YOUR CODES GOES HERE
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;col-lg-4 col-md-6 col-sm-6 col-xs-12&#x22;&#x3E;
+            YOUR CODES GOES HERE
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;col-lg-4 col-md-6 col-sm-6 col-xs-12&#x22;&#x3E;
+            YOUR CODES GOES HERE
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+
+            <br>
+            <h3 id="css">CSS</h3>
+            <p>There are 5 CSS files in the template. First is "bootstrap.min.css", used for layout — originally in bootstrap, the second one is "fontawesome-all.min.css" font awesome 5, it is icons font, "style.css" the main style file for the forms, and the others are:
+            "organic-theme.css", "bronze-theme.css" the template other themes color.</p>
+
+            <h3 id="javascript">JavaScript</h3>
+            <p>This template imports four Javascript files.</p>
+
+            <ul>
+                <li>"jquery.min.js": jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+                <li>"bootstrap.min.js": Bootstrap is the most popular Javascript framework for developing responsive, mobile first projects on the web.</li>
+                <li>"popper.min.js": A library used to position poppers in web applications. A popper is an element on the screen which "pops out" from the natural flow of your application. Common examples of poppers are tooltips, popovers, and drop-downs.</li>
+                <li>"main.js": Our custom javascript code.</li>
+            </ul>
+            <h3 id="logo">Logo</h3>
+            <p>To change the logo simply replace "logo.svg" file.</p>
+            <br>
+            <h3 id="themes">Other themes</h3>
+            <p>To use other themes you have to link the theme css file to the head of the page, for example if you will use "organic-theme.css", add the following code:</p>
+            <pre class="prettyprint">
+&#x3C;link rel=&#x22;stylesheet&#x22; type=&#x22;text/css&#x22; href=&#x22;css/organic-theme.css&#x22;&#x3E;</pre>
+            <p>Add it exactly after this line:</p>
+            <pre class="prettyprint">
+&#x3C;link rel=&#x22;stylesheet&#x22; type=&#x22;text/css&#x22; href=&#x22;css/style.css&#x22;&#x3E;</pre>
+            <br>
+            <h3 id="lgtext">Large text</h3>
+            <p>To modify the large text without losing the animation and the coloring, the HTML code should look like the following</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;extra-lg-text&#x22;&#x3E;
+    &#x3C;span&#x3E;user-centric&#x3C;/span&#x3E;&#x3C;br&#x3E;
+    &#x3C;span&#x3E;experiences&#x3C;/span&#x3E;&#x3C;br&#x3E;
+    &#x3C;span&#x3E;that actually&#x3C;/span&#x3E;&#x3C;br&#x3E;
+    &#x3C;span class=&#x22;other-color&#x22;&#x3E;work&#x3C;/span&#x3E;
+&#x3C;/div&#x3E;</pre>
+
+            <p>Separate every line with 'span' tag to make the animation working well, and use 'other-color' class on the 'span' to use the other color.</p>
+
+            <h3 id="social">Social Media</h3>
+            <p>Social media link available in three places, the menu, the header and the footer, it looks like the following code.</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;social-media&#x22;&#x3E;
+    &#x3C;div class=&#x22;social-link-holder&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Dribbble&#x3C;/a&#x3E;&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;social-link-holder&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Instagram&#x3C;/a&#x3E;&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;social-link-holder&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Twitter&#x3C;/a&#x3E;&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;social-link-holder&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Facebook&#x3C;/a&#x3E;&#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+            <p>To add your link, replace '#' with the link.</p>
+
+            <h3 id="projects">Project list</h3>
+            <p>To add a new project to the work page, please use this code. The code will add two projects, it must be two projects so the layout will look the same without issues.</p>
+            <pre class="prettyprint">
+&#x3C;div class=&#x22;container-fluid box-content&#x22;&#x3E;
+    &#x3C;div class=&#x22;row&#x22;&#x3E;
+        &#x3C;div class=&#x22;col-md-6&#x22;&#x3E;
+            &#x3C;div class=&#x22;boxy img-box&#x22;&#x3E;
+                &#x3C;div class=&#x22;img&#x22;&#x3E;&#x3C;img src=&#x22;images/img3.png&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/div&#x3E;
+                &#x3C;div class=&#x22;bottom-text&#x22;&#x3E;
+                    &#x3C;div class=&#x22;link&#x22;&#x3E;VIEW THIS PROJECT&#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;text&#x22;&#x3E;CoinView App development&#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+                &#x3C;a href=&#x22;project.html&#x22; class=&#x22;project-link-full&#x22;&#x3E;&#x3C;/a&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;col-md-6&#x22;&#x3E;
+            &#x3C;div class=&#x22;boxy img-box&#x22;&#x3E;
+                    &#x3C;div class=&#x22;img&#x22;&#x3E;&#x3C;img src=&#x22;images/img6.png&#x22; alt=&#x22;&#x22;&#x3E;&#x3C;/div&#x3E;
+                &#x3C;div class=&#x22;bottom-text&#x22;&#x3E;
+                    &#x3C;div class=&#x22;link&#x22;&#x3E;VIEW THIS PROJECT&#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;text&#x22;&#x3E;Hubble package design&#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+                &#x3C;a href=&#x22;project.html&#x22; class=&#x22;project-link-full&#x22;&#x3E;&#x3C;/a&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+            <p>To change the image, save the image in the "images" folder and then modify 'img src' with your image file name, the image will be arranged automatically with any size but we prefer image in square shape.</p>
+            <br>
+            <hr>
+            <p>Once again, thank you so much for purchasing this template. We'd be glad to help you if you have any questions relating to this template. No guarantees, but We'll do our best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="doc-info">
+                <div><b>Created:</b> 11 Sep 2019</div>
+                <div><b>By:</b> Brandio</div>
+                <div><b>Support:</b> faisal@brandio.io</div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="back-to-top" href="#header"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/prettify.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
